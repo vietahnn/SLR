@@ -1,4 +1,13 @@
 # Configuration System
+{
+  "paths": {
+    "base_dir": "/content/",
+    "rgb_frames_dir": "/content/preprocessing",
+    "landmarks_dir": "/content/landmarks",
+    "checkpoint_dir": "/content/",
+    "best_model_path": "/content/checkpoints\\best_model.pth"
+  }
+}
 
 ## Overview
 

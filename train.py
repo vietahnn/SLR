@@ -3,6 +3,14 @@ Training script for Sign Language Recognition
 Two-stream multimodal model: RGB + Pose
 """
 
+import sys
+import os
+
+# Fix Unicode encoding for Windows console
+if sys.platform == 'win32':
+    sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
