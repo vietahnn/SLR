@@ -1,0 +1,9 @@
+landmarks/
+mediapipe_models/
+runs/
+archive/
+ARCHITECTURE.md
+README_LANDMARKS.md
+README_MODEL.md
+landmarks.zip
+archive.zip

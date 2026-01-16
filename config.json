@@ -1,0 +1,9 @@
+{
+  "paths": {
+    "base_dir": "c:\\Users\\dovie\\OneDrive\\Desktop\\Việt anh",
+    "rgb_frames_dir": "c:\\Users\\dovie\\OneDrive\\Desktop\\Việt anh\\archive\\preprocessing",
+    "landmarks_dir": "c:\\Users\\dovie\\OneDrive\\Desktop\\Việt anh\\landmarks",
+    "checkpoint_dir": "c:\\Users\\dovie\\OneDrive\\Desktop\\Việt anh\\checkpoints",
+    "best_model_path": "c:\\Users\\dovie\\OneDrive\\Desktop\\Việt anh\\checkpoints\\best_model.pth"
+  }
+}
