@@ -255,7 +255,7 @@ def get_train_transform(args):
     return transforms.Compose(transform_list)
 
 
-def get_val_transform(config):
+def get_val_transform():
     """Get validation transforms (no augmentation) using torchvision"""
     return transforms.Compose([
         transforms.ToTensor(),
@@ -263,10 +263,6 @@ def get_val_transform(config):
     ])
 
 
-def get_dataloader(split='train', config=None, shuffle=True):
-    """
-    Create dataloader for given split
-    
 def get_dataloader(split, args, paths, shuffle=False):
     """
     Create a DataLoader for the specified split
