@@ -22,7 +22,7 @@ def get_args():
                         help='Number of sign language classes')
     parser.add_argument('--img-size', type=int, default=224,
                         help='Input image size')
-    parser.add_argument('--num-frames', type=int, default=8,
+    parser.add_argument('--num-frames', type=int, default=15,
                         help='Number of frames per video sequence')
     
     # Pose keypoints dimensions
